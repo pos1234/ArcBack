@@ -1,26 +1,31 @@
 import React from 'react'
-import Home from './partials/Home.js'
-/* import Welcome from './partials/Welcome.js'
-import HairStyles from './partials/HairStyles.js'
-import Services from './partials/Services.js'
-import Price from './partials/Price.js'
-import Testimonals from './partials/Testimonals.js'
-import Blog from './partials/Blog.js'
-import Appointment from './partials/Appointment.js'
-import Footer from './partials/Footer.js' */
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import './index.css'
+import Home from './components/Home.js'
+import Home2 from './components/Home2.js'
+import Home3 from './components/Home3.js'
+import Projects from './components/Projects.js'
+import Services from './components/Services.js'
+import News from './components/News.js'
+import Clients from './components/Clients.js'
+import Contact from './components/Contact.js'
+import Navbar from './components/Navbar.js'
 const App = ()=>{
     return(
-        <div>
-            <Home />
-         {/*    <Welcome />
-            <HairStyles />
-            <Services />
-            <Price />
-            <Testimonals />
-            <Blog />
-            <Appointment />
-            <Footer /> */}
-        </div>
+        <BrowserRouter>
+              {/* <Navbar /> */}
+              <Routes>
+                <Route exact path='/' element={<Home />}/>   
+                <Route path='/home2' element={<Home2 />}/>   
+                <Route path='/home3' element={<Home3 />}/>   
+                <Route path='/projects' element={<Projects/>}/>
+                <Route path='/services' element={<Services/>}/>
+                <Route path='/news' element={<News/>}/>
+                <Route path='/clients' element={<Clients/>}/>
+                <Route path='/contact' element={<Contact/>}/>
+              </Routes>
+        </BrowserRouter>
+    
     )
 }
 export default App
