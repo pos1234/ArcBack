@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/ArcBack/static/css/main.5a9628fa.css",
+    "main.js": "/ArcBack/static/js/main.b435276f.js",
+    "static/media/render.jpg": "/ArcBack/static/media/render.da552ecb0a898da75966.jpg",
+    "static/media/image5.jpg": "/ArcBack/static/media/image5.09a1434121e679afe224.jpg",
+    "static/media/map(3).jpg": "/ArcBack/static/media/map(3).c0401beaf2a93f326e1f.jpg",
+    "static/media/Library.jpg": "/ArcBack/static/media/Library.d09e87667541d3edd227.jpg",
+    "static/media/resident.jpg": "/ArcBack/static/media/resident.209d0b12d05cd0dad296.jpg",
+    "static/media/celebrate.jpg": "/ArcBack/static/media/celebrate.95e6519c70360352ac45.jpg",
+    "static/media/Health.jpg": "/ArcBack/static/media/Health.795ff2933cf037b1137a.jpg",
+    "static/media/stucco.jpeg": "/ArcBack/static/media/stucco.161d051294853fd4f69a.jpeg",
+    "static/media/finish.jpg": "/ArcBack/static/media/finish.264e64fc6dcc0f87010c.jpg",
+    "static/media/shell.jpg": "/ArcBack/static/media/shell.8702144aad0c38783562.jpg",
+    "static/media/image2.jpg": "/ArcBack/static/media/image2.3ad45e5b94b0c78d7e8b.jpg",
+    "static/media/study.jpg": "/ArcBack/static/media/study.9c6793606779bd914577.jpg",
+    "static/media/newSpace.jpg": "/ArcBack/static/media/newSpace.477e116016723085bdd7.jpg",
+    "static/media/Apart.jpg": "/ArcBack/static/media/Apart.d9ac0c4fa91c8ac39840.jpg",
+    "static/media/kit.jpg": "/ArcBack/static/media/kit.daddc362879dec757e94.jpg",
+    "static/media/global.jpg": "/ArcBack/static/media/global.727829521d35c9d47f87.jpg",
+    "static/media/School.jpg": "/ArcBack/static/media/School.582507b678d09976015f.jpg",
+    "static/media/gym.jpg": "/ArcBack/static/media/gym.eab793f1730324fb58dc.jpg",
+    "static/media/women.jpg": "/ArcBack/static/media/women.196001eee0538257dbf7.jpg",
+    "static/media/photo(5).png": "/ArcBack/static/media/photo(5).f345291c3bbefaec7d6c.png",
+    "static/media/photo(1).png": "/ArcBack/static/media/photo(1).8963b9f079471d439856.png",
+    "static/media/photo(2).png": "/ArcBack/static/media/photo(2).47c36e542d20577cab96.png",
+    "static/media/photo.png": "/ArcBack/static/media/photo.a0ef7d831dba42c3f78d.png",
+    "static/media/photo(3).png": "/ArcBack/static/media/photo(3).fc16fc97b6a979b3e7ce.png",
+    "static/media/photo(4).png": "/ArcBack/static/media/photo(4).4396022b1737fa1a5129.png",
+    "index.html": "/ArcBack/index.html",
+    "main.5a9628fa.css.map": "/ArcBack/static/css/main.5a9628fa.css.map",
+    "main.b435276f.js.map": "/ArcBack/static/js/main.b435276f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5a9628fa.css",
+    "static/js/main.b435276f.js"
+  ]
+}
