@@ -26,7 +26,7 @@ const Footer = ()=>{
                     <i className="fa-brands fa-youtube"></i>
                 </div>
                 <div className="col portifolio">
-                    <a href="https://pos1234.github.io/Portifolio" target='_blank'>Paulos Gebeyehu</a>
+                    <a rel="noreferrer" href="https://pos1234.github.io/Portifolio" target='_blank'>Paulos Gebeyehu</a>
                 </div>
             </div>  
         </div>

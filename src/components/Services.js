@@ -11,23 +11,20 @@ import Footer from './Footer'
 const Service = (props)=>{
     return(
         <div className="col service service-grid">
-            {/* <div className=" col service-grid"> */}
                 <div className="">
                     <img src={props.image} alt=""/>
                 </div>
                 <div className="service-title">
                     <h3>{props.title}</h3>
                     <p>{props.paragraph}</p>
-                    <a className="btn btn-primary">learn more</a>
+                    <a href="projects" className="btn btn-primary">learn more</a>
                 </div>
-            {/* </div> */}
         </div>
         
     )
 }
 
 const Services = ()=>{
-    let par="hey"
     return(
         <>
         <Navbar />

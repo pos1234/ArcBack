@@ -13,11 +13,10 @@ import image11 from '../images/women.jpg'
 import Navbar from './Navbar'
 import Footer from './Footer'
 const SingleNews = (props)=>{
-    let date = new Date('january');
     return(
         <div className="OneNews">
           <div className={props.className}>
-            <img className="oneImage" src={props.source}/>
+            <img className="oneImage" src={props.source} alt="images"/>
           </div>
           <div className="OneContent">
             <div className="row tumbnails">
@@ -28,7 +27,7 @@ const SingleNews = (props)=>{
             </div>
             <div className="row users">
                 <div className="col">
-                    <img className="circle" src={props.profile} alt="image"/>
+                    <img className="circle" src={props.profile} alt="pictures"/>
                 </div>
                 <div className="col user">
                     <p>{props.UserName}</p>

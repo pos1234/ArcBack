@@ -1,14 +1,12 @@
 import React from "react"
-import {useNavigate, NavLink} from 'react-router-dom'
+import {NavLink} from 'react-router-dom'
 import Navbar from './Navbar';
 import image1 from '../images/image5.jpg'
 const Home = (props)=>{
-    /* let navigate = useNavigate()
-    setTimeout(()=>{navigate('/home2')},5000) */
     
    return(
         <div className="home-entire">
-            <img src={image1}/>
+            <img src={image1} alt="photos"/>
             <Navbar />
         <div className="home">
           <div className="row">

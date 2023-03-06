@@ -5,14 +5,12 @@ import image3 from '../images/photo(3).png'
 import image4 from '../images/photo(4).png'
 import image5 from '../images/photo(5).png'
 import image6 from '../images/photo.png'
-import image7 from '../images/unnamed.png'
-
 import Navbar from './Navbar'
 import Footer from './Footer'
 const Test = (props)=>{
     return(
         <div className="col box" id={props.id}>
-            <div className="image-container"><img className="circle" src={props.image} /></div>
+            <div className="image-container"><img className="circle" src={props.image} alt="images" /></div>
             <h3 className="display-8">{props.client}</h3>
             <p>{props.content}</p>
         </div>
