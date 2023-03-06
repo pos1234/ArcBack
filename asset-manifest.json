@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ArcBack/static/css/main.5a9628fa.css",
-    "main.js": "/ArcBack/static/js/main.b435276f.js",
+    "main.js": "/ArcBack/static/js/main.ac5ddf3f.js",
     "static/media/render.jpg": "/ArcBack/static/media/render.da552ecb0a898da75966.jpg",
     "static/media/image5.jpg": "/ArcBack/static/media/image5.09a1434121e679afe224.jpg",
     "static/media/map(3).jpg": "/ArcBack/static/media/map(3).c0401beaf2a93f326e1f.jpg",
@@ -29,10 +29,10 @@
     "static/media/photo(4).png": "/ArcBack/static/media/photo(4).4396022b1737fa1a5129.png",
     "index.html": "/ArcBack/index.html",
     "main.5a9628fa.css.map": "/ArcBack/static/css/main.5a9628fa.css.map",
-    "main.b435276f.js.map": "/ArcBack/static/js/main.b435276f.js.map"
+    "main.ac5ddf3f.js.map": "/ArcBack/static/js/main.ac5ddf3f.js.map"
   },
   "entrypoints": [
     "static/css/main.5a9628fa.css",
-    "static/js/main.b435276f.js"
+    "static/js/main.ac5ddf3f.js"
   ]
 }
