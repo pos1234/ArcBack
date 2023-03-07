@@ -11,12 +11,12 @@ import Contact from './components/Contact.js'
 import './index.css'
 import './assets/fonts/css/all.min.css' 
 
-/* import App from './App'
- */import { BrowserRouter } from 'react-router-dom';
+import App from './App'
+import { BrowserRouter } from 'react-router-dom';
 /* ReactDOM.render(<App />,document.getElementById('root'))
  */const container = document.getElementById('root');
 const root = createRoot(container);
-const router = createBrowserRouter([
+/* const router = createBrowserRouter([
     {
         path: "ArcBack/",
         element: <Home />
@@ -41,5 +41,5 @@ const router = createBrowserRouter([
         path: "/ArcBack/Contact",
         element: <Contact />
     },
-])
-root.render(<RouterProvider basename="/ArcBack" router={router}/>);
+]) */
+root.render(<BrowserRouter basename='/ArcBack'><App /></BrowserRouter>);
