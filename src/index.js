@@ -42,4 +42,4 @@ const router = createBrowserRouter([
         element: <Contact />
     },
 ])
-root.render(<React.StrictMode><RouterProvider router={router}/></React.StrictMode>);
+root.render(<BrowserRouter basename='/ArcBack'><RouterProvider router={router}/></BrowserRouter>);
