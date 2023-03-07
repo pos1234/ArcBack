@@ -1,4 +1,5 @@
 import React from 'react'
+import 'bootstrap/dist/css/bootstrap.css';
 import { createRoot } from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from './components/Home'
@@ -9,9 +10,7 @@ import Clients from './components/Clients.js'
 import Contact from './components/Contact.js'
 import './index.css'
 import './assets/fonts/css/all.min.css'
-import './assets/bootstrap/bootstrap.min.css'
-import './assets/bootstrap/jquery-3.6.1.min.js'
-import './assets/bootstrap/bootstrap.min.js'
+
 /* import App from './App'
  */import { BrowserRouter } from 'react-router-dom';
 /* ReactDOM.render(<App />,document.getElementById('root'))
