@@ -9,8 +9,8 @@ import News from './components/News.js'
 import Clients from './components/Clients.js'
 import Contact from './components/Contact.js'
 import './index.css'
-import './assets/fonts/css/all.min.css' 
-
+/* import './assets/fonts/css/all.min.css' 
+ */
 import App from './App'
 import { BrowserRouter } from 'react-router-dom';
 /* ReactDOM.render(<App />,document.getElementById('root'))
@@ -42,4 +42,4 @@ const root = createRoot(container);
         element: <Contact />
     },
 ]) */
-root.render(<BrowserRouter basename='/ArcBack'><App /></BrowserRouter>);
+root.render(<App />);
