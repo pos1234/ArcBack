@@ -18,27 +18,27 @@ import './assets/fonts/css/all.min.css'
 const root = createRoot(container);
 const router = createBrowserRouter([
     {
-        path: "/",
+        path: "ArcBack/",
         element: <Home />
     },
     {
-        path: "/Projects",
+        path: "ArcBack/Projects",
         element: <Projects />
     },
     {
-        path: "/Services",
+        path: "ArcBack/Services",
         element: <Services />
     },
     {
-        path: "/News",
+        path: "/ArcBack/News",
         element: <News />
     },
     {
-        path: "/Clients",
+        path: "/ArcBack/Clients",
         element: <Clients />
     },
     {
-        path: "/Contact",
+        path: "/ArcBack/Contact",
         element: <Contact />
     },
 ])
