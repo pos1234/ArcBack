@@ -9,7 +9,7 @@ import News from './components/News.js'
 import Clients from './components/Clients.js'
 import Contact from './components/Contact.js'
 import './index.css'
-/* import './assets/fonts/css/all.min.css' */
+import './assets/fonts/css/all.min.css' 
 
 /* import App from './App'
  */import { BrowserRouter } from 'react-router-dom';
@@ -19,7 +19,7 @@ const root = createRoot(container);
 const router = createBrowserRouter([
     {
         path: "/",
-        element: <h2>hey i think it works</h2>
+        element: <Home />
     },
     {
         path: "/Projects",
@@ -42,4 +42,4 @@ const router = createBrowserRouter([
         element: <Contact />
     },
 ])
-root.render(<BrowserRouter basename='/ArcBack'><RouterProvider router={router}/></BrowserRouter>);
+root.render(<RouterProvider basename="/ArcBack" router={router}/>);
