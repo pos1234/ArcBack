@@ -1,7 +1,46 @@
 import React from 'react'
 import { createRoot } from 'react-dom/client'
-import App from './App'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Home from './components/Home'
+import Projects from './components/Projects.js'
+import Services from './components/Services.js'
+import News from './components/News.js'
+import Clients from './components/Clients.js'
+import Contact from './components/Contact.js'
+import './index.css'
+import './assets/fonts/css/all.min.css'
+import './assets/bootstrap/bootstrap.min.css'
+import './assets/bootstrap/jquery-3.6.1.min.js'
+import './assets/bootstrap/bootstrap.min.js'
+/* import App from './App'
+ */import { BrowserRouter } from 'react-router-dom';
 /* ReactDOM.render(<App />,document.getElementById('root'))
  */const container = document.getElementById('root');
-const root = createRoot(container); 
-root.render(<App tab="home" />);
+const root = createRoot(container);
+const router = createBrowserRouter([
+    {
+        path: "/",
+        element: <Home />
+    },
+    {
+        path: "/Projects",
+        element: <Projects />
+    },
+    {
+        path: "/Services",
+        element: <Services />
+    },
+    {
+        path: "/News",
+        element: <News />
+    },
+    {
+        path: "/Clients",
+        element: <Clients />
+    },
+    {
+        path: "/Contact",
+        element: <Contact />
+    },
+])
+root.render(<React.StrictMode><RouterProvider router={router}/></React.StrictMode>);
