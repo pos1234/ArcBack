@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ArcBack/static/css/main.ea47b183.css",
-    "main.js": "/ArcBack/static/js/main.3e134699.js",
+    "main.js": "/ArcBack/static/js/main.d9874b82.js",
     "static/media/fa-solid-900.ttf": "/ArcBack/static/media/fa-solid-900.b48ad290d0335879a92b.ttf",
     "static/media/render.jpg": "/ArcBack/static/media/render.da552ecb0a898da75966.jpg",
     "static/media/fa-brands-400.ttf": "/ArcBack/static/media/fa-brands-400.f9ee61fab3c11e2f3ed3.ttf",
@@ -37,10 +37,10 @@
     "static/media/fa-v4compatibility.woff2": "/ArcBack/static/media/fa-v4compatibility.745989aab0d69cab7e70.woff2",
     "index.html": "/ArcBack/index.html",
     "main.ea47b183.css.map": "/ArcBack/static/css/main.ea47b183.css.map",
-    "main.3e134699.js.map": "/ArcBack/static/js/main.3e134699.js.map"
+    "main.d9874b82.js.map": "/ArcBack/static/js/main.d9874b82.js.map"
   },
   "entrypoints": [
     "static/css/main.ea47b183.css",
-    "static/js/main.3e134699.js"
+    "static/js/main.d9874b82.js"
   ]
 }
