@@ -19,7 +19,7 @@ const root = createRoot(container);
 const router = createBrowserRouter([
     {
         path: "/",
-        element: <Home />
+        element: <h2>hey i think it works</h2>
     },
     {
         path: "/Projects",
